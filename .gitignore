@@ -1,0 +1,17 @@
+# Ignore MAC Desktop Services Store files
+.DS_Store
+php.ini
+
+# Ignore robots file
+robots.txt
+
+# Ignore fileuploads
+admin/php/Categories
+admin/php/Products
+admin/php/Stores
+admin/php/Users
+admin/php/UsersX
+
+#Ignore cgi-bin
+cgi-bin
+
