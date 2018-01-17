@@ -674,8 +674,9 @@ function forgotPassword ($info){
     if($ready){
         echo "Debi de haber enviado un correo a ".$loginInfo[email];
         sendPassword($loginInfo[email],$userInfo[nombre] );
-    }
-    echo "No mande nada";
+    } else {
+		echo "No mande nada";
+	}
 
 
 }
